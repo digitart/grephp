@@ -3,7 +3,7 @@
  * Grep Searc-Engine
  * Use grep command line with a PHP interface.
  * inspired by an article in http://programmabilities.com/php/?id=2 by Chief Programmabilities
- * Distributed under GNU LGPL. See http://gnu.org/licenses/lgpl.html for details.
+ * Distributed under MIT License.
  *
  * @version 1.0
  * @copyright 2005-2006 Alejandro Vásquez admin[at]digitart.net
@@ -198,6 +198,6 @@ if (! empty($_POST['searchstr'])) {
        pclose($fp);
    }
 ?>
-<div class="copyright">&copy;2005-2019 Digitart, Alejandro V&aacute;squez. All rights reserved<br>Distributed under GNU LGPL. See <a href="http://gnu.org/licenses/lgpl.html">http://gnu.org/licenses/lgpl.html</a> for details.</div>
+<div class="copyright">&copy;2005-2019 Digitart, Alejandro V&aacute;squez. All rights reserved<br>Distributed under MIT License.</div>
 </body>
 </html>
