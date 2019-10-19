@@ -172,6 +172,7 @@ if (! empty($_POST['searchstr'])) {
 		  $myresult[$fname]['line'][] = str_replace($searchstr,"<strong>$searchstr</strong>",htmlentities($fline));
       }
       // we have results in a var. lets walk through it and print it
+			echo "<div>Grep search used: $cmdstr</div>";
 	  $numresults = count($myresult);
       if ($numresults) {
 	  		echo "<h2>Your $rs search on '$searchstr' in directory $searchdir returned $numresults files</h2>\n";
@@ -198,6 +199,6 @@ if (! empty($_POST['searchstr'])) {
        pclose($fp);
    }
 ?>
-<div class="copyright">&copy;2005-2019 Digitart, Alejandro V&aacute;squez. All rights reserved<br>Distributed under MIT License.</div>
+<div class="copyright">&copy;2005-2019 Digitart, Aleks V&aacute;squez. All rights reserved<br>Distributed under MIT License.</div>
 </body>
 </html>
