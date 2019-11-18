@@ -17,10 +17,11 @@
  *
  * split() is deprecated since PHPv5.3 use explode() instead in line 171
  */
+/*
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL & ~E_NOTICE);
-
+//*/
 extract($_POST);
 ?>
 <!DOCTYPE html>
